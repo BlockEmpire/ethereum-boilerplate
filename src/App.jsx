@@ -67,9 +67,10 @@ const App = ({ isServerInfo }) => {
           <div style={styles.headerRight}>
             <Chains />
             <TokenPrice
-              address="0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
-              chain="eth"
-              image="https://cloudflare-ipfs.com/ipfs/QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg/"
+            
+              address="0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82" //"0x1f9840a85d5af5bf1d1762f925bdaddc4201f984"
+              chain="bsc"
+              image= "https://s2.coinmarketcap.com/static/img/coins/64x64/7186.png" //https://cloudflare-ipfs.com/ipfs/QmXttGpZrECX5qCyXbBQiqgQNytVGeZW5Anewvh2jc4psg/"
               size="40px"
             />
             <NativeBalance />

@@ -62,7 +62,7 @@ const App = ({ isServerInfo }) => {
     <Layout style={{ height: "100vh", overflow: "auto" }}>
       <Router>
         <Header style={styles.header}>
-          <Logo />
+          {/* <Logo /> */}
           <MenuItems />
           <div style={styles.headerRight}>
             <Chains />
@@ -82,9 +82,9 @@ const App = ({ isServerInfo }) => {
             <>Please login using the "Authenticate" button</>
           ) : (
             <Switch>
-              <Route path="/quickstart">
+               <Route path="/quickstart">
                 <QuickStart isServerInfo={isServerInfo} />
-              </Route>
+              </Route> 
               <Route path="/wallet">
                 <Wallet />
               </Route>
@@ -127,7 +127,7 @@ const App = ({ isServerInfo }) => {
         </div>
       </Router>
       <Footer style={{ textAlign: "center" }}>
-        <Text style={{ display: "block" }}>
+        {/* <Text style={{ display: "block" }}>
           ⭐️ Please star this{" "}
           <a
             href="https://github.com/ethereum-boilerplate/ethereum-boilerplate/"
@@ -137,9 +137,9 @@ const App = ({ isServerInfo }) => {
             boilerplate
           </a>
           , every star makes us very happy!
-        </Text>
+        </Text> */}
 
-        <Text style={{ display: "block" }}>
+        {/* <Text style={{ display: "block" }}>
           🙋 You have questions? Ask them on the {""}
           <a
             target="_blank"
@@ -148,17 +148,17 @@ const App = ({ isServerInfo }) => {
           >
             Moralis forum
           </a>
-        </Text>
+        </Text> */}
 
         <Text style={{ display: "block" }}>
-          📖 Read more about{" "}
-          <a
+          DNL 2021{" "}
+          {/* <a
             target="_blank"
             rel="noopener noreferrer"
             href="https://moralis.io?utm_source=boilerplatehosted&utm_medium=todo&utm_campaign=ethereum-boilerplat"
           >
             Moralis
-          </a>
+          </a> */}
         </Text>
       </Footer>
     </Layout>

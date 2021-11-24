@@ -33,57 +33,57 @@ export default function QuickStart({ isServerInfo }) {
         style={styles.card}
         title={
           <>
-            📝 <Text strong>To-Do List</Text>
+            📝 <Text strong>How to use</Text>
           </>
         }
       >
         <Timeline mode="left" style={styles.timeline}>
           <Timeline.Item dot="📄">
-            <Text delete style={styles.text}>
-              Clone or fork{" "}
-              <a
+            <Text >
+              Only for desktop{" "}
+              {/* <a
                 href="https://github.com/ethereum-boilerplate/ethereum-boilerplate#-quick-start"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 ethereum-boilerplate
-              </a>{" "}
+              </a>{" "} */}
             </Text>
           </Timeline.Item>
 
           <Timeline.Item dot="💿">
-            <Text delete style={styles.text}>
-              Install all dependencies: <Text code>npm install</Text>
+            <Text >
+              Use Chrome
             </Text>
           </Timeline.Item>
 
           <Timeline.Item dot="🧰">
-            <Text delete={isServerInfo} style={styles.text}>
-              Sign up for a free account on{" "}
-              <a
+            <Text >
+              Install MetaMask Extension{" "}
+              {/* <a
                 href="https://moralis.io?utm_source=boilerplatehosted&utm_medium=todo&utm_campaign=ethereum-boilerplate"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 Moralis
-              </a>
+              </a> */}
             </Text>
           </Timeline.Item>
 
           <Timeline.Item dot="💾">
-            <Text delete={isServerInfo} style={styles.text}>
-              Create a Moralis Server (
-              <a
+            <Text >
+              Login with MetaMask to use 
+              {/* (<a
                 href="https://docs.moralis.io/moralis-server/getting-started/create-a-moralis-server"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 How to start Moralis Server
-              </a>
-              )
+              </a> )*/}
+              
             </Text>
           </Timeline.Item>
-
+{/* 
           <Timeline.Item dot="🔏">
             <Text delete={isServerInfo} style={styles.text}>
               Rename <Text code>.env.example</Text> to <Text code>.env</Text> and provide your <Text strong>appId</Text>{" "}
@@ -127,10 +127,10 @@ export default function QuickStart({ isServerInfo }) {
 
           <Timeline.Item dot="🚀">
             <Text style={styles.text}>BUIDL!!!</Text>
-          </Timeline.Item>
+          </Timeline.Item> */}
         </Timeline>
       </Card>
-      <div>
+      {/* <div>
         <Card
           style={styles.card}
           title={
@@ -200,7 +200,7 @@ export default function QuickStart({ isServerInfo }) {
             </Timeline.Item>
           </Timeline>
         </Card>
-      </div>
+      </div> */}
     </div>
   );
 }
